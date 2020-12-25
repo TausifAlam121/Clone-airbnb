@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    background-color:#222;
+    font-family: 'Bitter', serif;
+    font-weight: 300;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+
+}
+header{
+    background: #55d6aa;
+}
+header::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+img{
+    float: left;
+}
+nav{
+    float: right;
+}
